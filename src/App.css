@@ -1,0 +1,204 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root{
+  background-image: url(/sekiller/1.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+
+}
+.yuxari{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items:center ;
+}
+ ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+}
+/* Header.css */
+/* Header.css */
+/* Header.css */
+
+
+li {
+  font-style:initial;
+  align-items: center;
+  font-size: 25px;
+  margin-left: 80px;
+  font-weight: 800;
+  display: flex;
+  flex-direction: row;
+  text-align: center;  
+  cursor: pointer; /* Kursoru tıklama üçün göstər *//* li hover zamanı background-un dəyişməsi */
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.yuxari h1{
+  margin-left: 20px;
+  font-size: 50px;
+  color: rgb(255, 89, 0);
+}
+.axtar input{
+  text-align: center;
+  padding: 0px 0px;
+  color: #fff;
+  font-size: 15px;
+  border: 2px solid rgb(251, 141, 82);
+  background-color: transparent;
+  width: 200px;
+  height: 35px;
+}
+.axtar input::placeholder{
+  color: #fff ;
+  font-size: 15px;
+  font-weight: 600;
+}
+.axtar button{
+  background-color: rgb(251, 138, 78);
+  border: none;
+  height: 35px;
+  width: 50px;
+}
+.axtar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+/* li hover olduğu zaman div-in arxa fonunu dəyişdir */
+.orta{
+  position: relative;
+  top: 30vh;
+  
+}
+.orta{
+  margin-left: 50px;
+  align-items:baseline;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  max-width: 400px;
+}
+.orta h2{
+  color: #fff;
+  font-weight: 700;
+  font-size: 50px;
+}
+.orta h1{
+  font-size: 60px;
+  color:rgb(255, 106, 25);
+}
+.orta span{
+  color: #fff;
+  
+}
+.orta .buton2{
+  font-weight: 700;
+  margin-top: 30px;
+  border-radius: 10px;
+  background-color: rgb(251, 141, 82);
+  height: 35px;
+  width: 140px;
+}
+.login{
+  width: 290px;
+  position: relative;
+  bottom: 90px;
+  margin-right: 20px;
+  background-color: rgba(0, 0, 0, 0.624);
+  float: right;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.Loginhere{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.Loginhere h1{
+  color:rgb(251, 138, 78);
+  border-radius: 20px;
+  font-weight: 800;
+}
+.login h1{
+  background-color: #fff;
+ font-size: 30px;
+ text-align: center;
+ }
+ .login span{
+  color: #fff;
+ }
+ .iler{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  margin-top: 10px;
+  justify-content: space-between;
+ }
+
+.login-form{
+  float: right;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+.login-form input{
+  font-weight: 700;
+  font-size: 15px;
+  color: #bd7800;
+  text-align: center;
+  padding: 10px 0px;;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #fff;
+  height: 30px;
+  width: 200px;
+  margin-top: 15px;
+}
+.login-form input::placeholder{
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+
+}
+
+.login-form button{
+  border-radius: 20px;
+  background-color: #ff7b1c;
+  margin-top: 15px;
+  height: 30px;
+  width:200px;
+
+}
+
+.yazilar{
+  float: right;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.salam{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.yazilar a{
+  color:rgb(251, 138, 78);
+}
+.salam a{
+  margin-top: 20px;
+  margin-left: 20px;
+}
